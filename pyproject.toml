@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "forbid"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Vlad Dmitrievich <2tunnels@proton.me>"]
 license = "MIT"
