@@ -1,0 +1,7 @@
+# Root dirs
+/.idea/
+/.mypy_cache/
+/.pytest_cache/
+
+# Global dirs
+__pycache__/
