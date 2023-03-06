@@ -1,12 +1,12 @@
 test:
-	pytest -vv
+	poetry run pytest -vv
 
 format:
-	isort --profile=black .
-	black .
+	poetry run isort --profile=black .
+	poetry run black .
 
 lint:
-	isort --profile=black --check .
-	black --check .
-	flake8 --max-line-length=120 .
-	mypy --strict forbid
+	poetry run isort --profile=black --check .
+	poetry run black --check .
+	poetry run flake8 --max-line-length=120 .
+	poetry run mypy --strict forbid
